@@ -2,7 +2,20 @@
 
 ## 立创PCB网页下单懒人助手
 
-脚本地址：<https://fastly.jsdelivr.net/gh/haoduck/jlc_tool/js/%E7%AB%8B%E5%88%9BPCB%E7%BD%91%E9%A1%B5%E4%B8%8B%E5%8D%95%E6%87%92%E4%BA%BA%E5%8A%A9%E6%89%8B.js>
+安装 / 更新地址（脚本 `@updateURL` 与 `@downloadURL` 均指向此地址）：
+
+<https://fastly.jsdelivr.net/gh/haoduck/jlc_tool@main/js/%E7%AB%8B%E5%88%9BPCB%E7%BD%91%E9%A1%B5%E4%B8%8B%E5%8D%95%E6%87%92%E4%BA%BA%E5%8A%A9%E6%89%8B.js>
+
+### 发布后需要刷新 CDN 缓存
+
+jsdelivr 会按分支缓存文件（最长 12 小时），因此**每次推送后需要主动 purge 一次**，否则油猴自动更新仍会取到旧版本：
+
+```bash
+curl "https://purge.jsdelivr.net/gh/haoduck/jlc_tool@main/js/%E7%AB%8B%E5%88%9BPCB%E7%BD%91%E9%A1%B5%E4%B8%8B%E5%8D%95%E6%87%92%E4%BA%BA%E5%8A%A9%E6%89%8B.js"
+```
+
+返回 `"status": "finished"` 即刷新成功。注意：带 `@main` 的地址可以正常 purge；
+**不带 `@main` 的裸地址即使 purge 也可能长期返回旧内容**，所以脚本里统一使用带 `@main` 的形式。
 
 ---
 

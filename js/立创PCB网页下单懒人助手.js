@@ -11,8 +11,8 @@
 // @license      MIT
 // @homepageURL  https://github.com/haoduck/jlc_tool
 // @supportURL   https://github.com/haoduck/jlc_tool/issues
-// @updateURL    https://fastly.jsdelivr.net/gh/haoduck/jlc_tool/js/%E7%AB%8B%E5%88%9BPCB%E7%BD%91%E9%A1%B5%E4%B8%8B%E5%8D%95%E6%87%92%E4%BA%BA%E5%8A%A9%E6%89%8B.js
-// @downloadURL  https://fastly.jsdelivr.net/gh/haoduck/jlc_tool/js/%E7%AB%8B%E5%88%9BPCB%E7%BD%91%E9%A1%B5%E4%B8%8B%E5%8D%95%E6%87%92%E4%BA%BA%E5%8A%A9%E6%89%8B.js
+// @updateURL    https://fastly.jsdelivr.net/gh/haoduck/jlc_tool@main/js/%E7%AB%8B%E5%88%9BPCB%E7%BD%91%E9%A1%B5%E4%B8%8B%E5%8D%95%E6%87%92%E4%BA%BA%E5%8A%A9%E6%89%8B.js
+// @downloadURL  https://fastly.jsdelivr.net/gh/haoduck/jlc_tool@main/js/%E7%AB%8B%E5%88%9BPCB%E7%BD%91%E9%A1%B5%E4%B8%8B%E5%8D%95%E6%87%92%E4%BA%BA%E5%8A%A9%E6%89%8B.js
 // ==/UserScript==
 
 
